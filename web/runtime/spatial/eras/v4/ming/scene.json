@@ -1,0 +1,74 @@
+{
+  "pipeline": "python-sam2-matting-depthanything-ldi-v1",
+  "sourceWidth": 1672,
+  "sourceHeight": 941,
+  "depthModel": "depth-anything/Depth-Anything-V2-Small-hf",
+  "segmentationModel": "facebook/sam2.1-hiera-tiny",
+  "depthStats": {
+    "door-frame": 0.7613189015389682,
+    "tree": 0.22173114850432607,
+    "peach": 0.2038838005519989,
+    "rock": 0.3849589708968432
+  },
+  "inpaintMarginPixels": 5,
+  "floorJoin": 0.754,
+  "cameraRangeX": 0.105,
+  "cameraRangeY": 0.055,
+  "layers": [
+    {
+      "id": "background",
+      "texture": "background.lossless.webp",
+      "mesh": "background.ldi",
+      "wind": 0,
+      "rootTop": 1,
+      "depthMedian": 8.245608322531705,
+      "vertices": 32850,
+      "triangles": 64960,
+      "rejectedDiscontinuityTriangles": 0
+    },
+    {
+      "id": "tree",
+      "texture": "tree.lossless.webp",
+      "mesh": "tree.ldi",
+      "wind": 0.085,
+      "rootTop": 0.847872340425532,
+      "depthMedian": 6.020555019378662,
+      "vertices": 32850,
+      "triangles": 8562,
+      "rejectedDiscontinuityTriangles": 0
+    },
+    {
+      "id": "peach",
+      "texture": "peach.lossless.webp",
+      "mesh": "peach.ldi",
+      "wind": 0.045,
+      "rootTop": 0.6,
+      "depthMedian": 6.124917945948579,
+      "vertices": 32850,
+      "triangles": 8678,
+      "rejectedDiscontinuityTriangles": 0
+    },
+    {
+      "id": "rock",
+      "texture": "rock.lossless.webp",
+      "mesh": "rock.ldi",
+      "wind": 0,
+      "rootTop": 0.9585106382978723,
+      "depthMedian": 4.567799171897147,
+      "vertices": 32850,
+      "triangles": 1238,
+      "rejectedDiscontinuityTriangles": 0
+    },
+    {
+      "id": "door-frame",
+      "texture": "door-frame.lossless.webp",
+      "mesh": "door-frame.ldi",
+      "wind": 0,
+      "rootTop": 1,
+      "depthMedian": 3.9735662937164307,
+      "vertices": 32850,
+      "triangles": 29708,
+      "rejectedDiscontinuityTriangles": 0
+    }
+  ]
+}

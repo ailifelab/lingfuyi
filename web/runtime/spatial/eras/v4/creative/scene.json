@@ -1,0 +1,53 @@
+{
+  "pipeline": "local-python-registered-vertical-surfaces-and-horizontal-floor",
+  "layers": [
+    {
+      "id": "room",
+      "mesh": "room.ldi",
+      "texture": "room.lossless.webp",
+      "bounds": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "wind": 0
+    },
+    {
+      "id": "rear-textile",
+      "mesh": "rear-textile.ldi",
+      "texture": "rear-textile.lossless.webp",
+      "bounds": [
+        0.5490430622009569,
+        0.6148325358851675,
+        0.17215727948990436,
+        0.7566418703506907
+      ],
+      "wind": 0.075
+    },
+    {
+      "id": "middle-textile",
+      "mesh": "middle-textile.ldi",
+      "texture": "middle-textile.lossless.webp",
+      "bounds": [
+        0.6238038277511961,
+        0.7099282296650717,
+        0.18597236981934112,
+        0.7577045696068013
+      ],
+      "wind": 0.075
+    },
+    {
+      "id": "near-textile",
+      "mesh": "near-textile.ldi",
+      "texture": "near-textile.lossless.webp",
+      "bounds": [
+        0.72188995215311,
+        1,
+        0,
+        1
+      ],
+      "wind": 0.075
+    }
+  ]
+}

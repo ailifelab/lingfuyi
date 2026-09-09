@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/.github/
+!/.github/workflows/
+!/.github/workflows/pages.yml
+!/web/
+!/web/**
